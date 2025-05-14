@@ -48,7 +48,7 @@ public abstract class Ceph extends AWSService<AWSAccount, S3Client, S3Validation
     @Override
     public String defaultImage() {
         // squid == ceph 19 - https://docs.ceph.com/en/latest/releases/
-        return "registry.redhat.io/rhceph/rhceph-8-rhel9:8-1744038401";
+        return "registry.redhat.io/rhceph/rhceph-5-rhel8:5-535";
     }
 
     protected Map<String, String> environment() {
